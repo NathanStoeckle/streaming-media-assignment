@@ -17,7 +17,13 @@ const onRequest = (request, response) => {
     case '/bling.mp3':
       mediaHandler.getBling(request, response);
       break;
+    case '/page2':
+      mediaHandler.getBling(request, response);
+      break;
     case '/bird.mp4':
+      mediaHandler.getBird(request, response);
+      break;
+    case '/page3':
       mediaHandler.getBird(request, response);
       break;
     default:
