@@ -18,13 +18,13 @@ const onRequest = (request, response) => {
       mediaHandler.getBling(request, response);
       break;
     case '/page2':
-      mediaHandler.getBling(request, response);
+      htmlHandler.getPage2(request, response);
       break;
     case '/bird.mp4':
       mediaHandler.getBird(request, response);
       break;
     case '/page3':
-      mediaHandler.getBird(request, response);
+      htmlHandler.getPage3(request, response);
       break;
     default:
       htmlHandler.getIndex(request, response);
